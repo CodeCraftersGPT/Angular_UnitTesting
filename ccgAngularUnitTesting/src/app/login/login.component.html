@@ -1,1 +1,19 @@
-<p>login works!</p>
+<!-- FILEPATH: /c:/Kumar/Personal/Training/Pragim/Angular/Angular_UnitTesting/Angular_UnitTesting/ccgAngularUnitTesting/src/app/login/login.component.html -->
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter username" [(ngModel)]="username" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password" [(ngModel)]="password" />
+                </div>
+                <button type="button" class="btn btn-primary" (click)="login()">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
